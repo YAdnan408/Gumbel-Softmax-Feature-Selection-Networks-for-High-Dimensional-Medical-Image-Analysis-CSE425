@@ -1,26 +1,42 @@
-# Gumbel-Softmax Feature Selection Networks for High-Dimensional Medical Image Analysis
+# Context-Aware Stochastic Feature Selection for Neuroimaging Analysis
 
-This project implements Gumbel-Softmax based feature selection networks specifically tailored for high-dimensional medical image analysis (CSE425).
+This project implements context-aware stochastic feature selection techniques specifically tailored for high-dimensional neuroimaging data analysis.
+
+## Project Overview
+
+- **Goal:** Efficiently identify relevant features to improve neuroimaging analysis through advanced stochastic modeling and machine learning.
+- **Evaluation:** Models are assessed using metrics relevant to high-dimensional feature selection, including stability, performance, and computational efficiency.
 
 ## Getting Started
 
-### Prerequisites
-- Python 3.x
-- pip
+Follow these steps to set up and run the project locally.
 
-### Installation
-Clone the repository and install the required dependencies:
-
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/YAdnan408/Gumbel-Softmax-Feature-Selection-Networks-for-High-Dimensional-Medical-Image-Analysis-CSE425
+git clone https://github.com/YAdnan408/Gumbel-Softmax-Feature-Selection-Networks-for-High-Dimensional-Medical-Image-Analysis-CSE425.git
 cd Gumbel-Softmax-Feature-Selection-Networks-for-High-Dimensional-Medical-Image-Analysis-CSE425
+```
+
+### 2. Set Up a Virtual Environment (Recommended)
+```bash
+python -m venv venv
+# On Windows
+.\venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-### How to Run
-1. Ensure all dependencies are installed.
-2. Launch Jupyter Notebook to open the project file:
+### 4. Run the Project
+The main logic is contained within the Jupyter Notebook. You can launch it using:
 
 ```bash
 jupyter notebook Project_code.ipynb
 ```
+
+## Authors
+YAdnan408 (yamin.adnan408@gmail.com)
