@@ -1,1 +1,1 @@
-# Gumbel-Softmax-Feature-Selection-Networks-for-High-Dimensional-Medical-Image-Analysis-CSE425
+# Context-Aware Stochastic Feature Selection for Neuroimaging Analysis-CSE425
